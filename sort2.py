@@ -16,7 +16,7 @@ def f(n):
                     if sortingList[i] > sortingList[i+1]:
                         sortingList[i+1],sortingList[i]=sortingList[i],sortingList[i+1]
             
-            print("Time to sort :" ,str(time.time() - start_time))
+            print("Time to sort :" ,str(time.time() - start_time),"seconds.")
 
             with open("sorted.txt", "x") as aft:
                 for i in range(len(sortingList)):
